@@ -31,8 +31,8 @@ class Spider
 
 $spider1 = new Spider(8);
 $spider2 = new Spider(4);
-echo $spider1->__toString() . PHP_EOL;
-echo $spider2->__toString() . PHP_EOL;
+echo $spider1 . PHP_EOL;
+echo $spider2 . PHP_EOL;
 
 
 echo var_dump($spider2) . PHP_EOL;
